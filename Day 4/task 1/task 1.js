@@ -253,7 +253,8 @@ console.log('   ');
 
     }
     else{
-        console.log( c[c.length/2])
+      
+        console.log( c[(c.length -1)/2])
     }
   }
 
@@ -277,7 +278,7 @@ console.log('   ');
 
     }
     else{
-        console.log( c[c.length/2])
+      console.log( c[(c.length -1)/2])
     }
   })([1,2,7],[5,8,9])
 
