@@ -323,6 +323,29 @@ console.log('   ');
   console.log("Rotate an array by k times")
   console.log('   ')
 
+const rotate = function (arr,k){
+  for(i=0;i<k;i++){
+    arr.unshift(arr.pop())
+  }
+  console.log(arr)
 
+}
+
+rotate(checkprime,5);
+
+console.log('   ')  
+console.log("task 1-h in IIFE function")
+console.log("Rotate an array by k times")
+console.log('   ');
+
+(function (arr,k){
+  for(i=0;i<k;i++){
+    arr.unshift(arr.pop())
+  }
+  console.log(arr)
+
+}
+
+)([1,2,3,4,5,6,7,8],4)
 
 
